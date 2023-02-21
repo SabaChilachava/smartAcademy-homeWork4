@@ -50,9 +50,9 @@ section {
 }
 .section-image {
     max-width: 1195px;
-    max-height: 600px;
     width: 100%;
     object-fit: cover;
+    height: 600px;
     border-radius: 28px;
 }
 .section-title {
