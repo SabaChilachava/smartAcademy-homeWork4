@@ -50,7 +50,9 @@ section {
 }
 .section-image {
     max-width: 1195px;
+    height: 600px;
     width: 100%;
+    object-fit: cover;
 }
 .section-title {
     font-size: 28px;
