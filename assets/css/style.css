@@ -51,8 +51,9 @@ section {
 .section-image {
     width: 100%;
     max-width: 1195px;
-    height: 600px;
+    max-height: 600px;
     object-fit: cover;
+    height: 600px;
     border-radius: 28px;
 }
 .section-title {
