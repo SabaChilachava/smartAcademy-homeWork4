@@ -49,9 +49,9 @@ section {
     width: 1195px;
 }
 .section-image {
-    max-width: 1195px;
-    max-height: 600px;
     width: 100%;
+    max-width: 1195px;
+    height: 600px;
     object-fit: cover;
     border-radius: 28px;
 }
@@ -61,13 +61,16 @@ section {
     margin-bottom: 60px;
     color: #171717;
 }
+.carousel {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
 .section-carousel {
     width: 219px;
     height: 219px;
     object-fit: cover;
-}
-.space-between {
-    margin-left: 21px;
+    border-radius: 28px;
 }
 .section-information {
     display: flex;
